@@ -153,13 +153,15 @@ header a:hover{
 
 .flexbox-item{
     width: 15%;
-    background-color: rgb(175, 175, 175);
-    border: 1px solid rgb(0, 0, 0);
-    color: white;
+    background-color: rgb(112, 105, 105);
+    border: 1px solid rgb(236, 234, 234);
+    color: rgb(0, 0, 0);
     padding: 20px;
     margin: 1px;
     overflow: hidden;
     background-position: center;
+    font-weight: 900;
+    -webkit-text-stroke: 0.5px rgb(122, 122, 122);
 }
 
 .flexbox-item p{
@@ -194,6 +196,14 @@ header a:hover{
 .item-4{
     height: 500px;
     width: 50%;
+    background-image: url("../assets/img/theearth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-4 p{
+    font-size: 26px;
+    padding: 180px 20px 180px 20px;
 }
 
 .item-5{
@@ -349,6 +359,20 @@ img{
 @media (min-width: 1800px){
     .flexbox-container{
         max-width: 1920px;
+    }
+}
+
+@media (max-width: 1400px){
+    .item-4 p{
+        font-size: 26px;
+        padding: 140px 20px 180px 20px;
+    }
+}
+
+@media (max-width: 1100px){
+    .item-4 p{
+        font-size: 26px;
+        padding: 100px 20px 180px 20px;
     }
 }
 
