@@ -17,3 +17,50 @@ body{
     line-height: 2;
     background-color: rgb(236, 234, 234);
 }
+
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 12%;
+}
+
+#brand{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+#callout-padding{
+    padding: 10px 0 10px 0;
+}
+
+header{
+    background-color: rgb(65, 65, 65);
+    border-bottom: 1px solid black;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+}
+
+header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    transition-duration: 0.4s;
+}
+
+header .highlight, header .current a{
+    font-weight: bold;
+}
+
+header a:hover{
+    color: rgb(223, 182, 0);
+}
