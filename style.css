@@ -132,6 +132,18 @@ header a:hover{
     left: 0;
 }
 
+@media (max-width: 460px){
+    .callout h2{
+        font-size: 12px;
+}
+}
+
+@media (min-width: 1800px){
+    .iframe-container{
+        max-width: 90%;
+    }
+}
+
 /* Gallery Styling */
 
 .flexbox-container{
