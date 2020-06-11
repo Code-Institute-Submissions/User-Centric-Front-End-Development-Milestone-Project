@@ -232,6 +232,89 @@ img {
     object-fit: cover;
 }
 
+@media (min-width: 830px){
+    #slider{
+        display: none;
+    }
+
+    .slider-bottom-text{ 
+        display: none;
+    }
+}    
+
+@media (max-width: 830px){
+    #slider{
+        overflow: hidden;
+    }
+
+    #slider figure{
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;
+    }   
+
+    .slider-bottom-text{
+        padding: 10px 0 10px 0;
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(41, 41, 41);
+        border: 1px solid  rgb(179, 177, 177);
+    }
+
+    #slider figure img{
+        width: 20%;
+        float: left;
+    }
+
+    @keyframes slider{
+        0%{
+            left: 0;  
+        }
+
+        20%{
+            left: 0;
+        }
+
+        25%{
+            left: -100%;
+        }
+
+        45%{
+            left: -100%;
+        }
+
+        50%{
+            left: -200%;
+        }
+
+        70%{
+            left: -200%;
+        }
+
+        75%{
+            left: -300%;
+        }
+
+        95%{
+            left: -300%;
+        }
+
+        100%{
+            left: -400%;
+        }
+    }
+}
+
+@media (max-width: 600px){
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
 /* Newsletter Styling */
 
 .newsletter{
