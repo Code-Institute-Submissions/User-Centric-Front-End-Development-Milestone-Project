@@ -65,6 +65,39 @@ header a:hover{
     color: rgb(223, 182, 0);
 }
 
+@media (max-width: 900px){
+
+    #brand{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    header ul li{
+        display: flex;
+        justify-content: column;
+    }
+}
+
+@media (max-width: 500px){
+
+    #brand{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    header ul li{
+        display: flex;
+        justify-content: column;
+    }
+}
+
+@media (min-width: 500px){
+    
+    #callout-padding{
+        padding: 40px 0 40px 0;
+    }
+}
+
 /* Callout Styling */
 
 .callout{
