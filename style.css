@@ -245,3 +245,9 @@ input{
     border-style: none;
     outline: none;
     }
+
+.master-footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(236, 234, 234);
+}
