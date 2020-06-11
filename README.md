@@ -1,4 +1,4 @@
-# User-Centric-Front-End-Development-Milestone-Proeject
+# User-Centric-Front-End-Development-Milestone-Project
 User Centric Front End Development Milestone Project
 
 ## Our World.
