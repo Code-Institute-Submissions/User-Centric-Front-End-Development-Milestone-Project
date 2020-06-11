@@ -246,8 +246,43 @@ input{
     outline: none;
     }
 
+/* Footer Styling */
+
 .master-footer{
     text-align: center;
     text-transform: uppercase;
     background-color: rgb(236, 234, 234);
+}
+
+.secondary-nav .highlight, .secondary-nav .current a{
+    color: rgb(190, 190, 190);
+    font-weight: bold;
+}
+
+.secondary-nav a:hover{
+    color: rgb(223, 182, 0);
+}
+
+.secondary-nav ul li a{
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+    transition: 0.4s;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav-socials-contact-title{
+    color: rgb(36, 36, 36);
+}
+
+nav .nav-socials-contact{
+    line-height: 35px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.nav-socials-contact{
+    color: rgb(155, 155, 155);
 }
