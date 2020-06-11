@@ -64,3 +64,22 @@ header .highlight, header .current a{
 header a:hover{
     color: rgb(223, 182, 0);
 }
+
+/* Callout Styling */
+
+.callout{
+    text-align: center;
+    background-color: rgb(236, 234, 234);
+    text-transform: uppercase;
+    color: rgb(37, 37, 37);
+}
+
+.callout h2{
+    display: inline;
+}
+
+#underline{
+    display: inline;
+    text-decoration: underline;
+    color: rgb(182, 0, 0);
+}
