@@ -315,6 +315,42 @@ img {
     }
 }
 
+@media (max-width: 830px){
+    .item-1{
+        display: none;
+}
+
+    .item-2{
+        display: none;
+}
+
+    .item-3{
+        display: none;
+}
+
+    .item-4{
+        display: none;
+
+}
+    .item-5{
+        display: none;
+}
+
+    .item-6{
+        display: none;
+}
+
+    .item-7{
+        display: none;
+}
+}
+
+@media (min-width: 1800px){
+    .flexbox-container{
+        max-width: 1920px;
+    }
+}
+
 /* Newsletter Styling */
 
 .newsletter{
