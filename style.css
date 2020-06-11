@@ -98,3 +98,91 @@ header a:hover{
     top: 0;
     left: 0;
 }
+
+/* Gallery Styling */
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexbox-item{
+    width: 15%;
+    background-color: rgb(175, 175, 175);
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    margin: 1px;
+    overflow: hidden;
+}
+
+.flexbox-item p{
+    text-align: center;
+}
+
+
+.item-1{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/img/burningforest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-2{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/img/farmerpollution.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-3{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/img/oilspill.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-4{
+    height: 500px;
+    width: 50%;
+}
+
+.item-5{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/img/icecaps.jpg");
+    background-size: cover;
+}
+
+.item-6{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/img/oceanpollution.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-7{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/img/airpollution.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.container-images{
+    display: block;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    max-width: 850px;
+    object-fit: cover;
+}
