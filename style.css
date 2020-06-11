@@ -217,3 +217,31 @@ img {
     padding: 0px 9px 0px 9px;
     color: rgb(179, 179, 179);
 }
+
+.button-1:hover {
+  background-color: rgb(223, 182, 0);
+  color: rgb(39, 39, 39);
+}
+
+.button-1{
+    height: 45px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #d3d3d3;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    border-style: none;
+    transition-duration: 0.5s;
+    outline: none;
+    }
+
+input{
+    height: 45px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #d3d3d3;
+    color: rgb(34, 34, 34);
+    cursor: text;
+    border-style: none;
+    outline: none;
+    }
