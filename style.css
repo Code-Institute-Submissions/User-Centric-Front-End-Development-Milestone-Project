@@ -1,0 +1,19 @@
+/* Global Usage */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    background-color: rgb(236, 234, 234);
+}
