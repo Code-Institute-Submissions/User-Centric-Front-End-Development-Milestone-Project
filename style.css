@@ -286,3 +286,8 @@ nav .nav-socials-contact{
 .nav-socials-contact{
     color: rgb(155, 155, 155);
 }
+
+#copyright{
+    font-size: 12px;
+    color: rgb(177, 177, 177);
+}
