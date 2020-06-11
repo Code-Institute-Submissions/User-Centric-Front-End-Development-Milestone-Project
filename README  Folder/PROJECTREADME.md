@@ -1,4 +1,4 @@
-## Our World.                            use markdown!
+## Our World.
 
 My project "Our World" hopes to inform the public on the natural world's current 
 issues such as climate change and deforesation. I decided to base my project on this 
@@ -39,16 +39,16 @@ Gallery implemented
 Newsletter implemmented
 Footer implememnted
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ## Features Left to Implement
 Another feature idea
-Technologies Used
+
+## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-## JQuery
+JQuery
 The project uses JQuery to simplify DOM manipulation.
-Testing
+
+## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -71,7 +71,7 @@ This section should describe the process you went through to deploy the project 
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
-## Different values for environment variables (Heroku Config Vars)?
+Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
@@ -79,13 +79,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
 
-https://www.youtube.com/watch?v=pGHOaY4dhAA&t=211s
-
+## Media Used:
 https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
 
 https://www.offshore-technology.com/news/optical-remote-sensing-provides-ocean-oil-spill-data/
@@ -93,3 +88,8 @@ https://www.offshore-technology.com/news/optical-remote-sensing-provides-ocean-o
 https://www.niehs.nih.gov/health/topics/agents/air-pollution/index.cfm
 
 https://springpowerandgas.us/how-do-we-pollute-9-types-of-ocean-pollution/
+
+## Acknowledgements
+Using the following video, I was able to understand and build an image slider.
+https://www.youtube.com/watch?v=pGHOaY4dhAA&t=211s
+
