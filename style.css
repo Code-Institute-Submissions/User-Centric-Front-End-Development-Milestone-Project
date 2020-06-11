@@ -186,3 +186,34 @@ img {
     max-width: 850px;
     object-fit: cover;
 }
+
+/* Newsletter Styling */
+
+.newsletter{
+    background-color: rgb(65, 65, 65);
+    color: white;
+    height: 250px;
+}
+
+.newsletter-left{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.newsletter-right{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.newsletter h1{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.newsletter p{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 9px 0px 9px;
+    color: rgb(179, 179, 179);
+}
