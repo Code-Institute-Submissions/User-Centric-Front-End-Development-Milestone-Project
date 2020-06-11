@@ -135,7 +135,7 @@ header a:hover{
 @media (max-width: 460px){
     .callout h2{
         font-size: 12px;
-}
+    }
 }
 
 @media (min-width: 1800px){
@@ -159,6 +159,7 @@ header a:hover{
     padding: 20px;
     margin: 1px;
     overflow: hidden;
+    background-position: center;
 }
 
 .flexbox-item p{
@@ -218,9 +219,9 @@ header a:hover{
     background-size: cover;
 }
 
-img {
-  width: 500px;
-  height: 500px;
+img{
+    width: 500px;
+    height: 500px;
 }
 
 .container-images{
@@ -318,31 +319,31 @@ img {
 @media (max-width: 830px){
     .item-1{
         display: none;
-}
+    }
 
     .item-2{
         display: none;
-}
+    }
 
     .item-3{
         display: none;
-}
+    }
 
     .item-4{
         display: none;
 
-}
+    }
     .item-5{
         display: none;
-}
+    }
 
     .item-6{
         display: none;
-}
+    }
 
     .item-7{
         display: none;
-}
+    }
 }
 
 @media (min-width: 1800px){
@@ -382,9 +383,9 @@ img {
     color: rgb(179, 179, 179);
 }
 
-.button-1:hover {
-  background-color: rgb(223, 182, 0);
-  color: rgb(39, 39, 39);
+.button-1:hover{
+    background-color: rgb(223, 182, 0);
+    color: rgb(39, 39, 39);
 }
 
 .button-1{
@@ -500,8 +501,8 @@ nav .nav-socials-contact{
     }  
 
     nav .nav-socials-contact{
-    line-height: 35px;
-    padding-top: 30px;
-    padding-bottom: 40px;
-}
+        line-height: 35px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
 }
