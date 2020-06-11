@@ -38,18 +38,12 @@ Here's the link to my first planning mockup: https://imgur.com/a/ZxeWJ1a
 
 Here's the link to my second planning mockup:https://imgur.com/a/ZxeWJ1a.png
 
-
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
 ## Features
 
 **Universal Website Features**
 
 Header:
 The header contains 4 links. The "Our World" title leads to Google Earth, as a quaint reference to what the website is about. The other links are "Who Are We?", "Make a Difference" and "Donate". The header collapses with screen width. 
-
 
 Footer: The footer brings social links to the work, as well as a secondary navigation to allow ease of access after reaching the bottom of the page. Including a Contact tab as well, with a link that directly opens up a draft email to the ficitonal company. These footer features collapses into columns with width changes.
 
@@ -64,7 +58,7 @@ The callout contains impact text and a youtube video discussing the catastrophic
 Gallery:
 The gallery has some photos of the environment in peril, coupled with a box of brief information. When viewing this part of the website on a mobile device or tablet, the gallery shrinks, the text box disappears and an image carousel replaces the section. 
 
-
+**The "Who Are We?" Page**
 
 
 
