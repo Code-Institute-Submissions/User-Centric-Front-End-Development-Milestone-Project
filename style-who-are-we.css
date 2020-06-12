@@ -1,5 +1,7 @@
-.who-container{
-    width: 80%;
+/*.who-container{
+    width: 70%;
+    margin: left;
+    overflow: hidden;
     text-align: left;
 }
 
@@ -8,16 +10,13 @@
     font-size: 30px;
     font-weight: medium;
 }
-
-.who-container h2{
-    padding-top: 40px;
-}
+*/
 
 .iframe-container{
     position: relative;
     padding-bottom: 56.25%;
     width: 100%;
-    height: 0;
+    height: 100%;
     margin-bottom: 50px;
 }
 .iframe-container iframe{
@@ -30,5 +29,37 @@
 
 .flexbox-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.flexbox-item{
+    width: 15%;
+    background-color: rgb(112, 105, 105);
+    border: 1px solid rgb(236, 234, 234);
+    color: rgb(0, 0, 0);
+    margin: 1px;
+    overflow: hidden;
+    background-position: center;
+    font-weight: 900;
+    -webkit-text-stroke: 0.5px rgb(122, 122, 122);
+}
+
+.item-1{
+    height: 500px;
+    width: 70%;
+}
+
+.item-2{
+    height: 500px;
+    width: 30%
+}
+
+.item-3{
+    height: 500px;
+    width: 50%;
+}
+
+.item-4{
+    height: 500px;
+    width: 30%;
 }
