@@ -25,6 +25,11 @@ header{
     flex-direction: column;
     justify-content: space-between;
     padding: 25px 12%;
+    
+}
+
+header h1{
+    font-weight: 400;
 }
 
 #brand{
@@ -58,7 +63,7 @@ header ul li a{
 }
 
 header .highlight, header .current a{
-    font-weight: bold;
+    font-weight: 900;
 }
 
 header a:hover{
