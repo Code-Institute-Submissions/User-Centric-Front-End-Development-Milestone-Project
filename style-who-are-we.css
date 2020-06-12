@@ -1,3 +1,19 @@
+.about-header{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 10px auto;
+
+}
+
+.about-header h1{
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: rgb(24, 24, 24);
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    display: inline-block
+}
+
 .iframe-container{
     position: relative;
     padding-bottom: 56.25%;
@@ -19,13 +35,13 @@
 }
 
 .flexbox-item{
-    width: 15%;
     color: rgb(0, 0, 0);
     margin: 1px;
     margin-bottom: 10px;
-    overflow: hidden;
     background-position: center;
+    overflow: hidden;
 }
+
 
 .item-1{
     padding: 20px;
@@ -34,8 +50,8 @@
     text-align: left;
     text-transform: uppercase;
     color: rgb(24, 24, 24);
-    font-size: 25px;
-    padding-top: 80px;
+    font-size: 20px;
+    padding-top: 90px;
 }
 
 .item-2{
@@ -45,31 +61,69 @@
     padding: 20px 20px 0 20px;
 }
 
-.about-header{
-    text-align: center;
-    padding: 10px 0 10px 0;
-    margin: 10px auto;
-
+.item-3{
+    display: none;
 }
 
-.about-header h1{
-    font-weight: normal;
-    letter-spacing: 3px;
-    color: rgb(24, 24, 24);
-    text-transform: uppercase;
-    text-decoration: underline;
+@media (max-width: 1600px){
+    .item-1{
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 1400px){
+    .item-1{
+        height: 350px;
+        width: 100%;
+        text-align: center;
     }
 
-/*.who-container{
-    width: 70%;
-    margin: left;
-    overflow: hidden;
-    text-align: left;
+    .item-2{
+        display: none;
+    }
+
+    .item-3{
+        width: 98%;
+        height: 500px;
+        background-image: url("../assets/img/canarywharf.jpg");
+        display: block;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
 
-.who-container h1{
-    padding-top: 40px;
-    font-size: 30px;
-    font-weight: medium;
+@media (max-width: 790px){
+    .item-1{
+        font-size: 18px;
+    }
+    .item-3{
+        height: 400px;
+    }
 }
-*/
+
+@media (max-width: 610px){
+    .item-1{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px){
+    .item-1{
+        padding-top: 20px;
+        font-size: 14px;
+    }
+    .item-3{
+        height: 250px;
+    }
+}
+
+@media (max-width: 430px){
+    .item-1{
+        font-size: 13.5px;
+    }
+    .item-3{
+        height: 200px;
+     }
+}
+
+

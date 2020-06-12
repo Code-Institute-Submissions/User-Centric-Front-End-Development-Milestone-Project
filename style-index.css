@@ -267,3 +267,15 @@ img{
         padding: 140px 20px 180px 20px;
     }
 }
+
+@media (max-width: 970px){
+    .item-4 p{
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 865px){
+    .item-4 p{
+        padding-top: 80px;
+    }
+}

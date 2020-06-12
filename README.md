@@ -135,6 +135,8 @@ https://www.niehs.nih.gov/health/topics/agents/air-pollution/index.cfm
 
 https://springpowerandgas.us/how-do-we-pollute-9-types-of-ocean-pollution/
 
+https://www.inyourarea.co.uk/news/canary-wharf-tops-out-the-uks-tallest-residential-skyscraper-newfoundland-available-to-rent-in-2020/
+
 ## Acknowledgements
 Using the following video, I was able to understand and build an image slider.
 https://www.youtube.com/watch?v=pGHOaY4dhAA&t=211s
