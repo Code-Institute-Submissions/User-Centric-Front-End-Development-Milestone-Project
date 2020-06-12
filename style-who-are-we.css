@@ -1,18 +1,21 @@
+/*Who Are We Title Styling*/
+
 .about-header{
     text-align: center;
     padding: 10px 0 10px 0;
     margin: 10px auto;
-
 }
 
 .about-header h1{
-    font-weight: normal;
+    font-weight: 900;
     letter-spacing: 3px;
     color: rgb(24, 24, 24);
     text-transform: uppercase;
     border-bottom: 1px solid black;
     display: inline-block
 }
+
+/*Google Maps Styling*/
 
 .iframe-container{
     position: relative;
@@ -29,6 +32,8 @@
     left: 0;
 }
 
+/*Flexbox Styling*/
+
 .flexbox-container{
     display: flex;
     justify-content: space-around;
@@ -41,7 +46,6 @@
     background-position: center;
     overflow: hidden;
 }
-
 
 .item-1{
     padding: 20px;
@@ -64,6 +68,8 @@
 .item-3{
     display: none;
 }
+
+/*Media Queries*/
 
 @media (max-width: 1600px){
     .item-1{
@@ -91,6 +97,8 @@
         background-size: contain;
     }
 }
+
+/*Media Queries For Going Down in Screen Width*/
 
 @media (max-width: 790px){
     .item-1{
