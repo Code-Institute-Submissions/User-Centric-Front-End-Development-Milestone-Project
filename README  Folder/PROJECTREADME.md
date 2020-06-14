@@ -77,6 +77,8 @@ The gallery has some photos of the environment in peril, coupled with a box of b
 - Possibly allowing the user to see a pinned location on google maps when hovering over a certain image.
 - An interactive game about taking out trash for children, expanding the website's audience.
 
+Javascript for pop ups 
+
 
 ## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
@@ -125,8 +127,7 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
+
 
 ## Media Used:
 https://www.offshore-technology.com/news/optical-remote-sensing-provides-ocean-oil-spill-data/
@@ -137,7 +138,16 @@ https://springpowerandgas.us/how-do-we-pollute-9-types-of-ocean-pollution/
 
 https://www.inyourarea.co.uk/news/canary-wharf-tops-out-the-uks-tallest-residential-skyscraper-newfoundland-available-to-rent-in-2020/
 
+https://www.plantbasednews.org/news/bali-bans-single-use-plastic
+
+https://emerging-europe.com/news/air-pollution-may-have-adverse-effect-on-covid-19-patients-experts-warn/
+
+https://www.rainforest-alliance.org/articles/relationship-between-deforestation-climate-change
+
 ## Acknowledgements
+
+I'd like to thank Mr. Bim in the Slack chat for helping me when I was stuck.
+
 Using the following video, I was able to understand and build an image slider.
 https://www.youtube.com/watch?v=pGHOaY4dhAA&t=211s
 
