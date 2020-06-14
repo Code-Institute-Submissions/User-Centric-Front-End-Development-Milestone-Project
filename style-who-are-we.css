@@ -71,11 +71,20 @@
 
 /*Media Queries*/
 
+@media (min-width: 1400px){
+    .image-bottom-text{
+        display: none;
+    }
+
+}
+
 @media (max-width: 1600px){
     .item-1{
         padding-top: 40px;
     }
 }
+
+/*Media Query for Image in Mobile View */
 
 @media (max-width: 1400px){
     .item-1{
@@ -95,6 +104,14 @@
         display: block;
         background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    .image-bottom-text{
+        padding: 0 0 10px 0;
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(41, 41, 41);
     }
 }
 
