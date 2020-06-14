@@ -1,0 +1,40 @@
+.flexbox-container{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.info-1, .info-2, .info-3{
+    background: rgb(226, 226, 226);
+    margin: 3px;
+    flex: 1;    
+    padding: 30px;
+    font-size: 18px;
+}
+
+.container-images{
+    overflow: hidden;
+    object-fit: cover;
+    height: 200px;
+}
+
+.flexbox-container h1{
+    margin-bottom: 10px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+@media (max-width: 900px){
+    .flexbox-container{
+        flex-direction: column-reverse;
+    }
+    .info-1, .info-2, .info-3{
+        font-size: 12px;
+    }
+}
