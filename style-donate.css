@@ -25,7 +25,7 @@ form h2{
 }
 
 .card-input{
-    width: 24.58%;
+    width: 24.64%;
     height: 45px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -55,11 +55,17 @@ form h2{
     }
 
     .card-input{
-        width: 24.3%;
+        width: 24.5%;
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 600px){
+    .card-input{
+        width: 24.4%;
+    }
+}
+
+@media (max-width: 420px){
     .card-input{
         width: 24.21%;
     }
