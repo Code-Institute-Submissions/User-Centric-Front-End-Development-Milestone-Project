@@ -1,7 +1,10 @@
+/* Donation Form Styling */
+
 .sign-up{
     max-width: 700px;
     margin-bottom: 20px;
     margin-top: 20px;
+    padding: 20px;
 }
 
 form h2{
@@ -11,6 +14,8 @@ form h2{
     border-bottom: 1px solid black;
     display: block;
 }
+
+/* Basic Input Styling */
 
 .form-input{
     width: 100%;
@@ -23,6 +28,8 @@ form h2{
     border-style: none;
     outline: none;
 }
+
+/* 4 Box Card Number Styling */
 
 .card-input{
     width: 24.64%;
@@ -45,15 +52,26 @@ form h2{
     display: block;
 }
 
+/* Flexbox Styling */
+
 .flexbox-container{
     display: flex;
 }
 
-@media (max-width: 700px){
-    form{
-        max-width: 90%;
-    }
+/* Radio Button Styling */
 
+.flexbox-item{
+    display: flex;
+    align-items: center;
+}
+
+.radio{
+    margin-right: 5px;
+}
+
+/* Media Queries For Card Input Width */
+
+@media (max-width: 740px){
     .card-input{
         width: 24.5%;
     }
@@ -65,8 +83,14 @@ form h2{
     }
 }
 
-@media (max-width: 420px){
+@media (max-width: 460px){
     .card-input{
-        width: 24.21%;
+        width: 24.1%;
+    }
+}
+
+@media (max-width: 320px){
+    .card-input{
+        width: 24%;
     }
 }
