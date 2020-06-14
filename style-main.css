@@ -169,7 +169,7 @@ input{
     outline: none;
     }
 
-@media (min-width: 735px){
+@media (min-width: 830px){
 
  .newsletter{
         display: flex;
