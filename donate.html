@@ -38,35 +38,48 @@
     
     <form class="sign-up">  
     <h2>Make The Difference. Donate Today.</h2><br>
-            <label for="first-name">First Name</label><br>
-            <input type="text" name="first-name" class="form-input" required><br>
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" class="form-input" required><br>
 
-            <label for="second-name">Second Name</label><br>
-            <input type="text" name="second-name" class="form-input" required><br>
-            
-            <label for="email">Email Address</label><br>
-            <input type="email" name="email-address" class="form-input" required><br>
-            
-            <label for="long-card-number">Long Card Number</label><br>
-            <input type="text" name="long-card-number" class="card-input" required>
-            <input type="text" name="long-card-number" class="card-input" required>
-            <input type="text" name="long-card-number" class="card-input" required>
-            <input type="text" name="long-card-number" class="card-input" required><br>
-            
-            <label for="card-expiry-date">Expiry Date</label><br>
-            <input type="date" name="card-expiry-date" class="form-input" required><br>
+        <label for="lname">Second Name</label><br>
+        <input type="text" name="lname" class="form-input" required><br>
         
-            <label for="card-security-code">Security Code</label><br>
-            <input type="text" name="card-security-code" class="form-input" required><br>
+        <label for="email">Email Address</label><br>
+        <input type="email" name="email-address" class="form-input" required><br>
+        
+        <label for="long-card-number">Long Card Number</label><br>
+        <input type="text" name="long-card-number" class="card-input" required>
+        <input type="text" name="long-card-number" class="card-input" required>
+        <input type="text" name="long-card-number" class="card-input" required>
+        <input type="text" name="long-card-number" class="card-input" required><br>
+        
+        <label for="card-expiry-date">Expiry Date</label><br>
+        <input type="date" name="card-expiry-date" class="form-input" required><br>
+    
+        <label for="card-security-code">Security Code</label><br>
+        <input type="text" name="card-security-code" class="form-input" required><br>
 
-            <label for="donation-amount">Amount</label><br>
-            <input type="number" name="card-security-code" min="1" max="1000" class="form-input" required><br>
+        <label for="donation-amount">Amount</label><br>
+        <input type="number" name="card-security-code" min="1" max="1000" class="form-input" required><br>
 
-            <label for="anon-donation">Do you wish to donate anonymously?</label><br>
-            <input type="radio" name="anon-donation" required>Yes<br>
-            <input type="radio" name="anon-donation" required>No<br>
+        <p>Do you wish to remain anonymous?</p>
+        
+        <div class="flexbox-container">
+            <div class="flexbox-item item-1">
+                    <div>
+                        <input type="radio" name="anon-donation" class="radio" required>Yes<br> 
+                    </div>
+                </div> 
 
-            <button type="submit" class="button-1">Make a difference</button>
+                <div class="flexbox-item item-2">
+                    <div>
+                        <input type="radio" name="anon-donation" class="radio" required>No<br>
+                    </div>
+                </div>
+        </div>
+
+
+        <button type="submit" class="button-1">Make a difference</button>
     </form>
 </section>
 

@@ -1,9 +1,10 @@
 .sign-up{
     max-width: 700px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 form h2{
-    padding-top: 20px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(36, 36, 36);
@@ -33,6 +34,19 @@ form h2{
     cursor: text;
     border-style: none;
     outline: none;
+}
+
+.sign-up p{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(36, 36, 36);
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+.flexbox-container{
+    display: flex;
 }
 
 @media (max-width: 700px){
