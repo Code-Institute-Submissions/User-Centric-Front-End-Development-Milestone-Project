@@ -38,6 +38,8 @@ Here's the link to my first planning mockup: https://imgur.com/a/ZxeWJ1a
 
 Here's the link to my second planning mockup:https://imgur.com/a/ZxeWJ1a.png
 
+The mockups were very loosely followed. Even though it is not advised, I did improvise certain aspects as I saw fit. 
+
 ## Features
 
 **Universal Website Features**
@@ -45,7 +47,8 @@ Here's the link to my second planning mockup:https://imgur.com/a/ZxeWJ1a.png
 Header:
 The header contains 4 links. The "Our World" title leads to Google Earth, as a quaint reference to what the website is about. The other links are "Who Are We?", "Make a Difference" and "Donate". The header collapses with screen width. 
 
-Footer: The footer brings social links to the work, as well as a secondary navigation to allow ease of access after reaching the bottom of the page. Including a Contact tab as well, with a link that directly opens up a draft email to the ficitonal company. These footer features collapses into columns with width changes.
+Footer: 
+The footer brings social links to the work, as well as a secondary navigation to allow ease of access after reaching the bottom of the page. Including a Contact tab as well, with a link that directly opens up a draft email to the ficitonal company. These footer features collapses into columns with width changes.
 
 Newsletter:
 The newsletter is a feature that would theoretically allow users to sign up for weekly, informative news. 
@@ -60,7 +63,18 @@ The gallery has some photos of the environment in peril, coupled with a box of b
 
 **The "Who Are We?" Page**
 
+Google Maps:
+I imbedded a Google Maps link to Canary Wharf, the location of the fictional offices for Our World. There is a text box beside this which discusses who the company are. When reducing the width, the map disappears and is replaced by an image of Canary Wharf's offices.
 
+**The "Make a Difference" Page**
+
+Information Boxes:
+This page simply consists of some brief information on three different aspects of world health, partnered with some pictures. When the screen size is reduced, these boxes become a row as apposed to a column for mobile viewing ease.
+
+**The "Donate" Page**
+
+Donation Form:
+The donation form is purely for visuals and as a user experience example. It consists of various inputs for name, surname, email and then the card details. I used "tel" to produce the desired formatting of my long card box. Coupled with a button to submit the form.
 
 ## Existing Features
 
@@ -76,9 +90,9 @@ The gallery has some photos of the environment in peril, coupled with a box of b
 - Even though the image slider is now functional, it does not have controls. At this moment in time, I do not possess enough knowledge to do this with just html / css. I believe further studies into javascript will help me achieve this goal.
 - Possibly allowing the user to see a pinned location on google maps when hovering over a certain image.
 - An interactive game about taking out trash for children, expanding the website's audience.
-
-Javascript for pop ups 
-
+- I would have liked to make pop up bubbles for when the form or newsletter had been completed to notify the user.
+- More control of the text outputted when not filling in the form correctly i.e giving it more context.
+- The input for email to force the user to use a .com / .co.uk etc. instead of just the @ sign being enough to pass validation.
 
 ## Technologies Used
 
@@ -88,30 +102,36 @@ JQuery
 The project uses JQuery to simplify DOM manipulation.
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Upon writing this, I've completed most of the difficult stuff in my code and have only a few things to add like the "Who Are We?" page etc. 
 
 During the time spent coding, I encountered various issues with my code. The most difficult one for me was figuring out how to correctly format and position parts of my website. I struggled to the content of my gallery where I wanted it. I originally had it all it div containers, which didn't allow for much customisation without the use of floats. I'm not a fan of using floats, so I did some research into flexbox. I experimented with it until I eventually was able to completely remove the old code I had and replace it with some new, refined flexbox code. This allowed me to have a much more flexible gallery that was even and precise. Customisation became easy and this solved one of my biggest issues with this project. I ran into a few, smaller issues along the way, however. 
 
 I had an issue with embedding the video into my callout area. At first, I didn't use a youtube video. I had downloaded the video and implemented it locally. This proved difficult as I'm not yet experienced enough to create controls for that. On top of that, I couldn't get the width to adjust properly. So I left it for a couple days and decided to use a youtube video instead. After a few tutorials, I was able to figure out the width issue - and because it was an embedded video, I was able to have all the controls for quality, volume etc providing a more solid UX than my previous embedded video. 
 
-Another issue, albeit a lot yes difficult to fix was an issue with my header. I wanted the navigation to sit underb
+Another issue, albeit a lot yes difficult to fix was an issue with my header. I wanted the navigation to sit underneath the the title instead of next to it. This however, was eventually solved with the help of Mr. Bim. The fix was simple, including the use of flex display and columns. 
+
+#### User Experience Testing:
+
+**Home Page:**
+
+Navigation: 
+
+UX for The Newsletter:
+
+IF the user clicks the "Subscribe" button without having typed anything the input box THEN give error message asking for an input.
+
+IF the user does not include an @ sign in the input field and clicks the button THEN give error message asking for correct foramtting. 
+
+IF the user enters a correctly formatted email into the input box and clicks button THEN the input passes validation and no errors occur.
+
+UX for The Donation Form:
+
+IF the user doesn't input the correct formatting for 1 of the fields despite having filled the rest of the form out correct and clicks the button THEN an error occurs asking the user to fill out the first input box that has conflicted with the formatting. 
+
+IF the user inputs all information correctly into the input fields and clicks the "Make a Difference" button THEN the form will submit and be completed.
+
+IF the user clicks the "Make a Difference" button without having inputted any information THEN aler the user to fill in the form.
+
+IF the user types text into an input requesting a number input i.e Long Card Number and clicks the "Make a Difference" button THEN give an error asking for correct formatting. 
 
 ## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
