@@ -116,14 +116,14 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
 
 #### User Experience Testing:
 
-**Features on All Pages:**
+##### Features on All Pages:
 
-1. The Title:
+**1. The Title:**
     1. Check that the title doesn't overlap the header contents when resizing.
     2. Verify that the title resizes as the width changes.
     3. Make sure that the title link to Google Earth is functional including the text changing colour when hovering over the title.
 
-2. Navigation Bar:
+**2. Navigation Bar:**
     1. Go to home page.
     2. Change screen size to make sure the nav bar is funcitoning correctly in various widths, switching from a row to a column when changing widths.
     3. Verify that no words overlap or overflow when changing sizes when altering the screen size. 
@@ -132,14 +132,14 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
     6. Make sure text becomes bold and is underlined when the user is on the corresponding page.
     7. Check that these links work properly and are easy to use when in tablet / mobile view.
 
-3. Newsletter: 
+**3. Newsletter:**
     1. Check that the input field works correctly, only allowing the specific format to be inputted.
     2. Click the button with an empty input field to make sure you get an error.
     3. Resize screen to make sure the input field drops below the text at a certain width / mobile view.
     4. Check that in mobile view the input field remains functional.
     5. Verify that the text and input box do not overlap when being resized.
 
-4. Footer Header:
+**4. Footer Header:**
     1. Change screen size to make sure the nav bar is funcitoning correctly in various widths, switching from a row to a column when changing widths.
     2. Verify that no words overlap or overflow in the different boxes when changing sizes when altering the screen size and become a column.
     3. When hovering over any item in the navigation, socials or contact tabs, the text should transition to a golden colour.
@@ -149,7 +149,7 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
     7. Check that when resizing, the socials and contact tab don't overlap or overflow.
     8. Confirm that the socials tabs open in a new window.
 
-**Home Page**
+##### Home Page
 
 1. Callout Text / Video:
     1. Check that the imbedded video works, allowing users to watch the video when they please.
