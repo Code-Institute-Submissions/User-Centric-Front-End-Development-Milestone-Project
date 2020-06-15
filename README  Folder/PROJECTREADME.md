@@ -81,11 +81,8 @@ Javascript for pop ups
 
 
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 No languages were used in the coding of this project. It is pure HTML / CSS. No framworks or libraries were used. 
-
-
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
@@ -128,6 +125,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
+https://www.rubicon.com/blog/ocean-pollution-facts/ - For the paragraph on Ocean Pollution.
+
+https://www.conserve-energy-future.com/various-deforestation-facts.php - For the paragraph on Deforesation.
+
 
 ## Media Used:
 https://www.offshore-technology.com/news/optical-remote-sensing-provides-ocean-oil-spill-data/
@@ -143,6 +144,23 @@ https://www.plantbasednews.org/news/bali-bans-single-use-plastic
 https://emerging-europe.com/news/air-pollution-may-have-adverse-effect-on-covid-19-patients-experts-warn/
 
 https://www.rainforest-alliance.org/articles/relationship-between-deforestation-climate-change
+
+https://www.elitereaders.com/damaged-nature/
+
+https://www.abc.net.au/news/2019-10-30/melting-greenland-glaciers-weighed-by-australian-scientists/11630970
+
+https://www.commondreams.org/news/2019/09/13/amazon-rainforest-burns-brazils-environment-minister-meet-us-group-denies-climate
+
+https://en.wikipedia.org/wiki/Earth
+
+https://www.nytimes.com/2020/01/13/science/air-pollution-fires-genes.html?smid=tw-nytimesworld&smtyp=cur
+
+
+
+Google Fonts:
+https://fonts.google.com/specimen/Raleway?preview.text=OUR+WORLD&preview.text_type=custom
+
+https://fonts.google.com/specimen/Noto+Sans+JP?preview.text=OUR+WORLD&preview.text_type=custom&query=Noto+Sans+JP
 
 ## Acknowledgements
 

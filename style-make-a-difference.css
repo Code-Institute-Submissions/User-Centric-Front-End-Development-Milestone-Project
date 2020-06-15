@@ -1,17 +1,11 @@
+/*Flexbox Styling*/
+
 .flexbox-container{
     width: 100%;
     display: flex;
     padding: 20px;
     box-sizing: border-box;
     flex-direction: row;
-}
-
-.info-1, .info-2, .info-3{
-    background: rgb(226, 226, 226);
-    margin: 3px;
-    flex: 1;    
-    padding: 30px;
-    font-size: 18px;
 }
 
 .container-images{
@@ -30,6 +24,18 @@
     text-align: center;
 }
 
+/*Information Styling*/
+
+.info-1, .info-2, .info-3{
+    background: rgb(226, 226, 226);
+    margin: 3px;
+    flex: 1;    
+    padding: 30px;
+    font-size: 18px;
+}
+
+/*Media Queries*/
+
 .flexbox-container{
     text-transform: uppercase;
     color: rgb(24, 24, 24);
@@ -43,6 +49,8 @@
         font-size: 12px;
     }
 }
+
+/*Media Query For Title Font Size of Deforestation Box*/
 
 @media (max-width: 360px){
     #deforestation{
