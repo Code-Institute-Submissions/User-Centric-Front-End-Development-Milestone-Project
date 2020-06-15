@@ -89,7 +89,6 @@ header a:hover{
 
     header ul li{
         display: flex;
-        justify-content: column;
     }
 }
 
@@ -102,7 +101,6 @@ header a:hover{
 
     header ul li{
         display: flex;
-        justify-content: column;
     }
 }
 
