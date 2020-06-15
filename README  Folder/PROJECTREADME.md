@@ -119,9 +119,9 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
 ##### Features on All Pages:
 
 **1. The Title:**
-    1. Check that the title doesn't overlap the header contents when resizing.
-    2. Verify that the title resizes as the width changes.
-    3. Make sure that the title link to Google Earth is functional including the text changing colour when hovering over the title.
+     1. Check that the title doesn't overlap the header contents when resizing.
+     2. Verify that the title resizes as the width changes.
+     3. Make sure that the title link to Google Earth is functional including the text changing colour when hovering over the title.
 
 **2. Navigation Bar:**
     1. Go to home page.
