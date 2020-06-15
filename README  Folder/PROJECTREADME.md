@@ -98,8 +98,11 @@ The donation form is purely for visuals and as a user experience example. It con
 
 No languages were used in the coding of this project. It is pure HTML / CSS. No framworks or libraries were used. 
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+This website uses Google Fonts to style the website fonts.
+
+https://fonts.google.com/specimen/Raleway?preview.text=OUR+WORLD&preview.text_type=custom
+
+https://fonts.google.com/specimen/Noto+Sans+JP?preview.text=OUR+WORLD&preview.text_type=custom&query=Noto+Sans+JP
 
 ## Testing
 
@@ -111,11 +114,88 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
 
 #### User Experience Testing:
 
-**Home Page:**
+**Features on All Pages:**
 
-Navigation: 
+1. The Title:
 
-UX for The Newsletter:
+i. Check that the title doesn't overlap the header contents when resizing.
+ii. Verify that the title resizes as the width changes.
+iii. Make sure that the title link to Google Earth is functional including the text changing colour when hovering over the title.
+
+2. Navigation Bar:
+
+i. Go to home page.
+ii. Change screen size to make sure the nav bar is funcitoning correctly in various widths, switching from a row to a column when changing widths.
+iii. Verify that no words overlap or overflow when changing sizes when altering the screen size. 
+iv. When hovering over any item in the navigation, the text should transition to a golden colour.
+v. Click the navigation links to make sure all links are working. 
+vi. Make sure text becomes bold and is underlined when the user is on the corresponding page.
+vii. Check that these links work properly and are easy to use when in tablet / mobile view.
+
+3. Newsletter: 
+
+i. Check that the input field works correctly, only allowing the specific format to be inputted.
+ii. Click the button with an empty input field to make sure you get an error.
+iii. Resize screen to make sure the input field drops below the text at a certain width / mobile view.
+iv. Check that in mobile view the input field remains functional.
+v. Verify that the text and input box do not overlap when being resized.
+
+4. Footer Header:
+
+i. Change screen size to make sure the nav bar is funcitoning correctly in various widths, switching from a row to a column when changing widths.
+ii. Verify that no words overlap or overflow in the different boxes when changing sizes when altering the screen size and become a column.
+iii. When hovering over any item in the navigation, socials or contact tabs, the text should transition to a golden colour.
+iv. Click the navigation links, socials links and email link to make sure all links are working. 
+v. Make sure text becomes bold and is underlined when the user is on the corresponding page.
+vi. Check that these links work properly and are easy to use when in tablet / mobile view.
+vii. Check that when resizing, the socials and contact tab don't overlap or overflow.
+viii. Confirm that the socials tabs open in a new window.
+
+**Home Page**
+
+1. Callout Text / Video:
+
+i. Check that the imbedded video works, allowing users to watch the video when they please.
+ii. Verify that all controls for the video work correctly.
+iii. Check that youtube video and text resize correctly in various widths.
+iv. Resize the page in both directions to make sure that the text / video do not overlap.
+
+2. Gallery:
+
+i. Check to make sure all images resize correctly when changing size.
+ii. Check that the text in the middle of the gallery moves correctly when resizing.
+iii. When changing to mobile view, make sure the gallery turns into an image slider with a text bar beneath it.
+iv. Resize back and fourth to verify that images and text don't overlap / overflow.
+
+**"Who Are We?" Page**
+
+1. Text Box and Google Maps:
+
+i. Check that the imbedded Google Maps box is working correctly and is showing Canary Wharf in London.
+ii Check to see if when resizing, the text box and google maps do not overlap / overflow.
+iii. Make sure that at a certain width, the map dissapears and an image of Canary Wharf takes it place with a textbox beneath it.
+iv. Verify that no text or images overlap when resizing to mobile view.
+
+**"Make a Difference" Page**
+
+1. Informative Boxes:
+
+i. All images and text boxes are lined up accordingly.
+ii. Check to see if all images / text resize correctly when expanding or reducing the width of the page.
+iii. Make sure that the three boxes become a column in mobile view.
+iv. Verify that the text resizes when necessary, namely the Deforestation title as it is one word and does not break into seperate pieces like the other two titles.
+v. Confirm that the images remain central and retain the same width as each other when resizing.
+
+**"Donate" Page:**
+
+1. Donation Form:
+
+i. Try submitting an empty form and make sure an error appears.
+ii. Try submitting a form with one incorrect box to verify that an error appears corresponding to which input had an error.
+iii. Attempt to submit a form with all input fields filled out correctly for a successful form submission.
+iv. Change the width of the screen size to make sure the form resizes correctly, with it's max width keeping it central and not oversized.
+ 
+**Logical Testing for The Newsletter:**
 
 IF the user clicks the "Subscribe" button without having typed anything the input box THEN give error message asking for an input.
 
@@ -123,7 +203,7 @@ IF the user does not include an @ sign in the input field and clicks the button 
 
 IF the user enters a correctly formatted email into the input box and clicks button THEN the input passes validation and no errors occur.
 
-UX for The Donation Form:
+**Logical Testing for The Donation Form:**
 
 IF the user doesn't input the correct formatting for 1 of the fields despite having filled the rest of the form out correct and clicks the button THEN an error occurs asking the user to fill out the first input box that has conflicted with the formatting. 
 
@@ -132,6 +212,11 @@ IF the user inputs all information correctly into the input fields and clicks th
 IF the user clicks the "Make a Difference" button without having inputted any information THEN aler the user to fill in the form.
 
 IF the user types text into an input requesting a number input i.e Long Card Number and clicks the "Make a Difference" button THEN give an error asking for correct formatting. 
+
+**Further Testing**
+I asked my parents and sister to test the site, as well as my mentor and a friend on Slack.
+
+- 
 
 ## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -151,6 +236,9 @@ https://www.conserve-energy-future.com/various-deforestation-facts.php - For the
 
 
 ## Media Used:
+
+Below are the links to the websites that I obtained all images from. 
+
 https://www.offshore-technology.com/news/optical-remote-sensing-provides-ocean-oil-spill-data/
 
 https://www.niehs.nih.gov/health/topics/agents/air-pollution/index.cfm
@@ -175,16 +263,9 @@ https://en.wikipedia.org/wiki/Earth
 
 https://www.nytimes.com/2020/01/13/science/air-pollution-fires-genes.html?smid=tw-nytimesworld&smtyp=cur
 
-
-
-Google Fonts:
-https://fonts.google.com/specimen/Raleway?preview.text=OUR+WORLD&preview.text_type=custom
-
-https://fonts.google.com/specimen/Noto+Sans+JP?preview.text=OUR+WORLD&preview.text_type=custom&query=Noto+Sans+JP
-
 ## Acknowledgements
 
-I'd like to thank Mr. Bim in the Slack chat for helping me when I was stuck.
+I'd like to thank Mr. Bim in the Slack chat for helping me out when I would get stuck on something, such as the header navigation positionin.
 
 Using the following video, I was able to understand and build an image slider.
 https://www.youtube.com/watch?v=pGHOaY4dhAA&t=211s
