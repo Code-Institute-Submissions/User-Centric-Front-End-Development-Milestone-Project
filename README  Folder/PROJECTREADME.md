@@ -15,16 +15,16 @@ real informative websites.
 ## UX
 The website is directed at teens and adults. The idea is that these individuals wish to do better for our world. The website will enable this by giving them information under the "Make a Difference" tab that will allow them to see what changes they can make to help do less damage to the earth.
 
-**An ideal viewer of this website would be someone that:**
+### An ideal viewer of this website would be someone that:
 * Doesn't recycle
 * Drives a fuel-powered car
 * Open-minded indivduals willing to change certain habits
 
-**The viewer would be visiting my site if they are:**
+### The viewer would be visiting my site if they are:
 * Looking to educate themselves on natural affairs
 * Looking to make changes in their daily life to help the environment
 
-**The website can help to achieve that because:**
+### The website can help to achieve that because:
 * There are not enough websites that look to help educate an audience on this topic
 * It's easily digestable information
 
@@ -34,7 +34,7 @@ The website is not designed for returning clients. A visitor should leave the we
 
 This website is not designed to produce any form of income, however it does have a donate option to allow people to put money toward various organisations. 
 
-**Wireframes / Mockups Used:**
+### Wireframes / Mockups Used:
 
 Here's the link to my first planning mockup: https://imgur.com/a/ZxeWJ1a
 
@@ -44,38 +44,38 @@ The mockups were very loosely followed. Even though it is not advised, I did imp
 
 ## Features
 
-**Universal Website Features**
+### Universal Website Features
 
-Header:
+#### Header:
 The header contains 4 links. The "Our World" title leads to Google Earth, as a quaint reference to what the website is about. The other links are "Who Are We?", "Make a Difference" and "Donate". The header collapses with screen width. 
 
-Footer: 
+#### Footer: 
 The footer brings social links to the work, as well as a secondary navigation to allow ease of access after reaching the bottom of the page. Including a Contact tab as well, with a link that directly opens up a draft email to the ficitonal company. These footer features collapses into columns with width changes.
 
-Newsletter:
+#### Newsletter:
 The newsletter is a feature that would theoretically allow users to sign up for weekly, informative news. 
 
-**The Home Page**
+### The Home Page
 
-Callout:
+#### Callout:
 The callout contains impact text and a youtube video discussing the catastrophic fires in the amazon rainforest. On mobile devices this video retains and is simply reduced in size. 
 
-Gallery:
+#### Gallery:
 The gallery has some photos of the environment in peril, coupled with a box of brief information. When viewing this part of the website on a mobile device or tablet, the gallery shrinks, the text box disappears and an image carousel replaces the section. 
 
-**The "Who Are We?" Page**
+### The "Who Are We?" Page
 
-Google Maps:
+#### Google Maps:
 I imbedded a Google Maps link to Canary Wharf, the location of the fictional offices for Our World. There is a text box beside this which discusses who the company are. When reducing the width, the map disappears and is replaced by an image of Canary Wharf's offices.
 
-**The "Make a Difference" Page**
+### The "Make a Difference" Page
 
-Information Boxes:
+#### Information Boxes:
 This page simply consists of some brief information on three different aspects of world health, partnered with some pictures. When the screen size is reduced, these boxes become a row as apposed to a column for mobile viewing ease.
 
-**The "Donate" Page**
+### The "Donate" Page
 
-Donation Form:
+#### Donation Form:
 The donation form is purely for visuals and as a user experience example. It consists of various inputs for name, surname, email and then the card details. I used "tel" to produce the desired formatting of my long card box. Coupled with a button to submit the form.
 
 ## Existing Features
@@ -114,7 +114,7 @@ I had an issue with embedding the video into my callout area. At first, I didn't
 
 Another issue, albeit a lot yes difficult to fix was an issue with my header. I wanted the navigation to sit underneath the the title instead of next to it. This however, was eventually solved with the help of Mr. Bim. The fix was simple, including the use of flex display and columns. 
 
-#### User Experience Testing:
+### User Experience Testing:
 
 ##### Features on All Pages:
 
@@ -163,7 +163,7 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
     3. When changing to mobile view, make sure the gallery turns into an image slider with a text bar beneath it.
     4. Resize back and fourth to verify that images and text don't overlap / overflow.
 
-**"Who Are We?" Page**
+###### "Who Are We?" Page
 
 1. Text Box and Google Maps:
     1. Check that the imbedded Google Maps box is working correctly and is showing Canary Wharf in London.
@@ -171,7 +171,7 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
     3. Make sure that at a certain width, the map dissapears and an image of Canary Wharf takes it place with a textbox beneath it.
     4. Verify that no text or images overlap when resizing to mobile view.
 
-**"Make a Difference" Page**
+###### "Make a Difference" Page
 
 1. Informative Boxes:
     1. All images and text boxes are lined up accordingly.
@@ -180,7 +180,7 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
     4. Verify that the text resizes when necessary, namely the Deforestation title as it is one word and does not break into seperate pieces like the other two titles.
     5. Confirm that the images remain central and retain the same width as each other when resizing.
 
-**"Donate" Page:**
+###### "Donate" Page:
 
 1. Donation Form:
     1. Try submitting an empty form and make sure an error appears.
@@ -188,7 +188,7 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
     3. Attempt to submit a form with all input fields filled out correctly for a successful form submission.
     4. Change the width of the screen size to make sure the form resizes correctly, with it's max width keeping it central and not oversized.
  
-**Logical Testing for The Newsletter:**
+###### Logical Testing for The Newsletter:
 
 IF the user clicks the "Subscribe" button without having typed anything the input box THEN give error message asking for an input.
 
@@ -196,7 +196,7 @@ IF the user does not include an @ sign in the input field and clicks the button 
 
 IF the user enters a correctly formatted email into the input box and clicks button THEN the input passes validation and no errors occur.
 
-**Logical Testing for The Donation Form:**
+###### Logical Testing for The Donation Form:
 
 IF the user doesn't input the correct formatting for 1 of the fields despite having filled the rest of the form out correct and clicks the button THEN an error occurs asking the user to fill out the first input box that has conflicted with the formatting. 
 
@@ -206,7 +206,7 @@ IF the user clicks the "Make a Difference" button without having inputted any in
 
 IF the user types text into an input requesting a number input i.e Long Card Number and clicks the "Make a Difference" button THEN give an error asking for correct formatting. 
 
-**Further Testing**
+###### Further Testing
 I asked my parents and sister to test the site, as well as my mentor and a friend on Slack.
 
 - 
