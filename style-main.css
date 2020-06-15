@@ -139,7 +139,7 @@ header a:hover{
     padding-bottom: 25px;
 }
 
-.newsletter h1{
+.newsletter h2{
     text-transform: uppercase;
     font-size: 18px;
 }
@@ -202,7 +202,7 @@ input{
         box-sizing: border-box;
     }
 
-    .newsletter h1{
+    .newsletter h2{
         padding: 0px 9px 0px 9px;
     }
 }
