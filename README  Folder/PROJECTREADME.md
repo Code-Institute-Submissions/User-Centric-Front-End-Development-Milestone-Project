@@ -149,46 +149,46 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
     7. Check that when resizing, the socials and contact tab don't overlap or overflow.
     8. Confirm that the socials tabs open in a new window.
 
-##### Home Page
+#### Home Page
 
-1. Callout Text / Video:
+**1. Callout Text / Video:**
     1. Check that the imbedded video works, allowing users to watch the video when they please.
     2. Verify that all controls for the video work correctly.
     3. Check that youtube video and text resize correctly in various widths.
     4. Resize the page in both directions to make sure that the text / video do not overlap.
 
-2. Gallery:
+**2. Gallery:**
     1. Check to make sure all images resize correctly when changing size.
     2. Check that the text in the middle of the gallery moves correctly when resizing.
     3. When changing to mobile view, make sure the gallery turns into an image slider with a text bar beneath it.
     4. Resize back and fourth to verify that images and text don't overlap / overflow.
 
-###### "Who Are We?" Page
+##### "Who Are We?" Page
 
-1. Text Box and Google Maps:
+**1. Text Box and Google Maps:**
     1. Check that the imbedded Google Maps box is working correctly and is showing Canary Wharf in London.
     2 Check to see if when resizing, the text box and google maps do not overlap / overflow.
     3. Make sure that at a certain width, the map dissapears and an image of Canary Wharf takes it place with a textbox beneath it.
     4. Verify that no text or images overlap when resizing to mobile view.
 
-###### "Make a Difference" Page
+##### "Make a Difference" Page
 
-1. Informative Boxes:
+**1. Informative Boxes:**
     1. All images and text boxes are lined up accordingly.
     2. Check to see if all images / text resize correctly when expanding or reducing the width of the page.
     3. Make sure that the three boxes become a column in mobile view.
     4. Verify that the text resizes when necessary, namely the Deforestation title as it is one word and does not break into seperate pieces like the other two titles.
     5. Confirm that the images remain central and retain the same width as each other when resizing.
 
-###### "Donate" Page:
+##### "Donate" Page:
 
-1. Donation Form:
+**1. Donation Form:**
     1. Try submitting an empty form and make sure an error appears.
     2. Try submitting a form with one incorrect box to verify that an error appears corresponding to which input had an error.
     3. Attempt to submit a form with all input fields filled out correctly for a successful form submission.
     4. Change the width of the screen size to make sure the form resizes correctly, with it's max width keeping it central and not oversized.
  
-###### Logical Testing for The Newsletter:
+##### Logical Testing for The Newsletter:
 
 IF the user clicks the "Subscribe" button without having typed anything the input box THEN give error message asking for an input.
 
@@ -196,7 +196,7 @@ IF the user does not include an @ sign in the input field and clicks the button 
 
 IF the user enters a correctly formatted email into the input box and clicks button THEN the input passes validation and no errors occur.
 
-###### Logical Testing for The Donation Form:
+##### Logical Testing for The Donation Form:
 
 IF the user doesn't input the correct formatting for 1 of the fields despite having filled the rest of the form out correct and clicks the button THEN an error occurs asking the user to fill out the first input box that has conflicted with the formatting. 
 
