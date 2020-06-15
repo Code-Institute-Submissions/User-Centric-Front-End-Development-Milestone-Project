@@ -227,6 +227,9 @@ https://www.rubicon.com/blog/ocean-pollution-facts/ - For the paragraph on Ocean
 
 https://www.conserve-energy-future.com/various-deforestation-facts.php - For the paragraph on Deforesation.
 
+https://www.youtube.com/watch?v=pGHOaY4dhAA&t=211s - Using the following video, I was able to understand and build an image slider.
+
+
 
 ## Media Used:
 
@@ -258,8 +261,5 @@ https://www.nytimes.com/2020/01/13/science/air-pollution-fires-genes.html?smid=t
 
 ## Acknowledgements
 
-I'd like to thank Mr. Bim in the Slack chat for helping me out when I would get stuck on something, such as the header navigation positionin.
-
-Using the following video, I was able to understand and build an image slider.
-https://www.youtube.com/watch?v=pGHOaY4dhAA&t=211s
+I'd like to thank Mr. Bim in the Slack chat for helping me out when I would get stuck on something, such as the header navigation positioning. I'd also like to thank my mentor, Mr. Munz for providing me with great feedback and resources to help better my project.
 
