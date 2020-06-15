@@ -14,75 +14,75 @@
     
 <!--Header-->
 
-<header>
-    <div id="brand">
-        <ul>
-            <li><h1><a href="https://earth.google.com/web/" target="_blank">Our World</a></h1></li>
-        </ul>
-    </div>
+    <header>
+        <div id="brand">
+            <ul>
+                <li><h1><a href="https://earth.google.com/web/" target="_blank">Our World</a></h1></li>
+            </ul>
+        </div>
 
 <!--Primary Navigation-->
 
-    <nav class="primary-nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="whoarewe.html">Who Are We?</a></li>
-            <li><a href="makeadifference.html">Make a Difference</a></li>
-            <li class="youarehere"><a href="donate.html">Donate</a></li>
-        </ul>
-    </nav>
-</header>
+        <nav class="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="whoarewe.html">Who Are We?</a></li>
+                <li><a href="makeadifference.html">Make a Difference</a></li>
+                <li class="youarehere"><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
 
 <!--Donate Form-->
 
-<section class="sign-up-section">
-    <form class="sign-up">  
-    <h2>Make The Difference. Donate Today.</h2><br>
-        <label for="fname">First Name</label><br>
-        <input type="text" placeholder="First Name" name="fname" class="form-input" required><br>
+    <section class="sign-up-section">
+        <form class="sign-up">
+        <h2>Make The Difference. Donate Today.</h2><br>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" placeholder="First Name" name="fname" class="form-input" required><br>
 
-        <label for="lname">Second Name</label><br>
-        <input type="text" placeholder="Second Name" name="lname" class="form-input" required><br>
-        
-        <label for="email">Email Address</label><br>
-        <input type="email" placeholder="Email Address" name="email-address" class="form-input" required><br>
+            <label for="lname">Second Name</label><br>
+            <input type="text" id="lname" placeholder="Second Name" name="lname" class="form-input" required><br>
+            
+            <label for="email">Email Address</label><br>
+            <input type="email" placeholder="Email Address" name="email-address" class="form-input" required><br>
 
 <!--Long Card Number Section-->
-        
-        <label for="long-card-number">Long Card Number</label><br>
-        <input type="tel" placeholder="XXXX" name="long-card-number" class="card-input" pattern="[0-9]{4}" required>
-        <input type="tel" placeholder="XXXX" name="long-card-number" class="card-input" pattern="[0-9]{4}" required>
-        <input type="tel" placeholder="XXXX" name="long-card-number" class="card-input" pattern="[0-9]{4}" required>
-        <input type="tel" placeholder="XXXX" name="long-card-number" class="card-input" pattern="[0-9]{4}" required><br>
+            
+            <label for="card-input">Long Card Number</label><br>
+            <input type="tel" id="card-input" placeholder="XXXX" name="long-card-number" class="card-input" pattern="[0-9]{4}" required>
+            <input type="tel" placeholder="XXXX" name="long-card-number" class="card-input" pattern="[0-9]{4}" required>
+            <input type="tel" placeholder="XXXX" name="long-card-number" class="card-input" pattern="[0-9]{4}" required>
+            <input type="tel" placeholder="XXXX" name="long-card-number" class="card-input" pattern="[0-9]{4}" required><br>
 
 <!--Other Card Details-->
 
-        <label for="card-expiry-date">Expiry Date</label><br>
-        <input type="date" name="card-expiry-date" class="form-input" required><br>
-    
-        <label for="card-security-code">Security Code</label><br>
-        <input type="tel" placeholder="XXX" name="card-security-code" class="form-input" pattern="[0-9]{3}" required><br>
-
-        <label for="donation-amount">Amount</label><br>
-        <input type="number" name="card-security-code" min="1" max="1000" class="form-input" required><br>
-
-        <p>Do you wish to remain anonymous?</p>
+            <label for="card-expiry-date">Expiry Date</label><br>
+            <input type="date" id="card-expiry-date" name="card-expiry-date" class="form-input" required><br>
         
+            <label for="card-security-code">Security Code</label><br>
+            <input type="tel" id="card-security-code" placeholder="XXX" name="card-security-code" class="form-input" pattern="[0-9]{3}" required><br>
+
+            <label for="donation-amount">Amount</label><br>
+            <input type="number" id="donation-amount" name="card-security-code" min="1" max="1000" class="form-input" required><br>
+
+            <p>Do you wish to remain anonymous?</p>
+            
 <!--Flexbox For Radio Buttons-->
 
+            <div class="flexbox-container">
+                <div class="flexbox-item item-1">
+                        <input type="radio" name="anon-donation" class="radio" required>Yes<br> 
+                    </div>
+                    <div class="flexbox-item item-2">
+                            <input type="radio" name="anon-donation" class="radio" required>No<br>
+                    </div>
+            </div>
         <div class="flexbox-container">
-            <div class="flexbox-item item-1">
-                    <input type="radio" name="anon-donation" class="radio" required>Yes<br> 
-                </div>
-                <div class="flexbox-item item-2">
-                        <input type="radio" name="anon-donation" class="radio" required>No<br>
-                </div>
+            <button type="submit" class="button-1">Make a Difference</button>
         </div>
-    <div class="flexbox-container">
-        <button type="submit" class="button-1">Make a Difference</button>
-    </div>
-    </form>
-</section>
+        </form>
+    </section>
 
 <!--Newsletter-->
 
@@ -92,51 +92,51 @@
             <p>An informative, weekly newsletter to keep you informed about our world. Sign up and make a change!</p>
         </div>
         <div class="newsletter-right">
-            <form><input  id="email" type="email" placeholder="Enter Your Email Here" required>
+            <form><input id="email" type="email" placeholder="Enter Your Email Here" required>
                 <button type="submit" class="button-1">Subscribe</button>
             </form>
         </div>
     </section>
-</body>
 
 <!--Footer-->
 
-<footer class="master-footer">
-    <nav class="secondary-nav">
+    <footer class="master-footer">
+        <nav class="secondary-nav">
 
 <!--Navigation, Socials and Contact-->
 
-    <div class="nav-socials-contact" id="box-1">
-        <h2 class="nav-socials-contact-title">NAVIGATE</h2>
-        <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="whoarewe.html">Who Are We?</a></li>
-            <li><a href="makeadifference.html">Make a Difference</a></li>
-            <li class="youarehere"><a href="donate.html">Donate</a></li>
-        </ul>
-    </div>
-    <div class="nav-socials-contact" id="box-2">
-        <h2 class="nav-socials-contact-title">SOCIAL</h2>
-        <ul>
-            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-        </ul>
-    </div>
-    <div class="nav-socials-contact" id="box-3">
-        <h2 class="nav-socials-contact-title">CONTACT</h2>
-        <ul>
-            <li><a href="mailto:ourworld@unitetheworld.co.uk">Click Here To Contact Us Via Email</a></li>
-            <li>Phone Number: 07886981803</li>
-            <li>Address: Canary Wharf, London, England</li>
-        </ul>
-    </div>
-    </nav>
+        <div class="nav-socials-contact" id="box-1">
+            <h2 class="nav-socials-contact-title">NAVIGATE</h2>
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="whoarewe.html">Who Are We?</a></li>
+                <li><a href="makeadifference.html">Make a Difference</a></li>
+                <li class="youarehere"><a href="donate.html">Donate</a></li>
+            </ul>
+        </div>
+        <div class="nav-socials-contact" id="box-2">
+            <h2 class="nav-socials-contact-title">SOCIAL</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+        <div class="nav-socials-contact" id="box-3">
+            <h2 class="nav-socials-contact-title">CONTACT</h2>
+            <ul>
+                <li><a href="mailto:ourworld@unitetheworld.co.uk">Click Here To Contact Us Via Email</a></li>
+                <li>Phone Number: 07886981803</li>
+                <li>Address: Canary Wharf, London, England</li>
+            </ul>
+        </div>
+        </nav>
 
-<!--Copyright-->
+    <!--Copyright-->
 
-    <div class="container">
-        <p id="copyright">All rights reserved, &copy;2020.</p>
-    </div>
-</footer>
+        <div class="container">
+            <p id="copyright">All rights reserved, &copy;2020.</p>
+        </div>
+    </footer>
+</body>
 </html>
