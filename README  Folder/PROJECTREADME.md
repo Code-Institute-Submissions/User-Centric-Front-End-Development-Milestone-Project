@@ -34,6 +34,8 @@ The website is not designed for returning clients. A visitor should leave the we
 
 This website is not designed to produce any form of income, however it does have a donate option to allow people to put money toward various organisations. 
 
+**Wireframes / Mockups Used:**
+
 Here's the link to my first planning mockup: https://imgur.com/a/ZxeWJ1a
 
 Here's the link to my second planning mockup:https://imgur.com/a/ZxeWJ1a.png
