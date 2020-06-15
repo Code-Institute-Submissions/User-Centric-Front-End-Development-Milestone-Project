@@ -38,9 +38,9 @@ This website is not designed to produce any form of income; however, it does hav
 
 ### Wireframes / Mock-ups Used: 
 
-Here's the link to my first planning mock-up: https://imgur.com/7YuOs2d 
+Here's the link to my first planning mock-up: [Mock-Up 1](https://imgur.com/7YuOs2d) 
 
-Here's the link to my second planning mock-up: https://imgur.com/Q4LI45V 
+Here's the link to my second planning mock-up: [Mock-Up 2](https://imgur.com/Q4LI45V)
 
 The mock-ups were very loosely followed. Even though it is not advised, I did improvise certain aspects as I saw fit.  
 
