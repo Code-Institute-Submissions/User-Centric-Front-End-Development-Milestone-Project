@@ -223,17 +223,16 @@ I asked my parents and sister to test the site, as well as my mentor and a frien
 
 ## Deployment 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku). 
+This project has been deployed via [GitHub Pages](https://github.com/KaganHuseyin/User-Centric-Front-End-Development-Milestone-Proeject).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including: 
-
-Different values for environment variables (Heroku Config Vars)? 
-
-Different configuration files? 
-
-Separate git branch? 
-
-In addition, if it is not obvious, you should also describe how to run your code locally. 
+1. Log into GitHub.
+2. Select KaganHuseyin/User-Centric-Front-End-Development-Milestone-Proeject.
+3. Select settings.
+4. Scroll down the page and locate GitHub Pages.
+5. Change the source to the master branch.
+6. Once the page refreshes, the website has been deployed.
+7. From here, go back to the repository and select "Environment."
+8. Select view deployment and the website will open up in a new tab.
 
 ## Credits 
 
