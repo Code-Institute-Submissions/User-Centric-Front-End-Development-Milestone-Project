@@ -188,7 +188,7 @@ Another issue, albeit a lot yes difficult to fix was an issue with my header. I 
     3. Attempt to submit a form with all input fields filled out correctly for a successful form submission.
     4. Change the width of the screen size to make sure the form resizes correctly, with it's max width keeping it central and not oversized.
  
-##### Logical Testing for The Newsletter:
+#### Logical Testing for The Newsletter:
 
 IF the user clicks the "Subscribe" button without having typed anything the input box THEN give error message asking for an input.
 
@@ -196,7 +196,7 @@ IF the user does not include an @ sign in the input field and clicks the button 
 
 IF the user enters a correctly formatted email into the input box and clicks button THEN the input passes validation and no errors occur.
 
-##### Logical Testing for The Donation Form:
+#### Logical Testing for The Donation Form:
 
 IF the user doesn't input the correct formatting for 1 of the fields despite having filled the rest of the form out correct and clicks the button THEN an error occurs asking the user to fill out the first input box that has conflicted with the formatting. 
 
@@ -206,7 +206,7 @@ IF the user clicks the "Make a Difference" button without having inputted any in
 
 IF the user types text into an input requesting a number input i.e Long Card Number and clicks the "Make a Difference" button THEN give an error asking for correct formatting. 
 
-###### Further Testing
+#### Further Testing
 I asked my parents and sister to test the site, as well as my mentor and a friend on Slack.
 
 - 
