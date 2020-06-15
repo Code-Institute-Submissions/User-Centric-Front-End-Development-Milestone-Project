@@ -219,7 +219,7 @@ IF the user types text into an input requesting a number input i.e. Long Card Nu
 
 I asked my parents and sister to test the site, as well as my mentor and a friend on Slack. 
 
--  
+With my parents / sister, no bugs or issues were encountered. My mum attempted to swipe the image slider which suggests that making it responsive would've been a good choice. This is difficult to achieve without Javascript.
 
 ## Deployment 
 
