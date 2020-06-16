@@ -100,7 +100,7 @@
     .item-3{
         width: 98%;
         height: 500px;
-        background-image: url("assets/img/canarywharf.jpg");
+        background-image: url("../img/canarywharf.jpg");
         display: block;
         background-repeat: no-repeat;
         background-size: contain;
