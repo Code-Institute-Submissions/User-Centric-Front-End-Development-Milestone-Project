@@ -72,7 +72,7 @@
 .item-1{
     height: 500px;
     width: 50%;
-    background-image: url("./assets/burningforest.jpg");
+    background-image: url("../assets/img/burningforest.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -80,7 +80,7 @@
 .item-2{
     height: 500px;
     width: 50%;
-    background-image: url("./assets/img/farmerpollution.jpg");
+    background-image: url("../assets/img/farmerpollution.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -88,7 +88,7 @@
 .item-3{
     height: 500px;
     width: 50%;
-    background-image: url("./assets/img/oilspill.jpg");
+    background-image: url("../assets/img/oilspill.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,7 +96,7 @@
 .item-4{
     height: 500px;
     width: 50%;
-    background-image: url("./assets/img/theearth.jpg");
+    background-image: url("../assets/img/theearth.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -109,14 +109,14 @@
 .item-5{
     height: 500px;
     width: 50%;
-    background-image: url("./assets/img/icecaps.jpg");
+    background-image: url("../assets/img/icecaps.jpg");
     background-size: cover;
 }
 
 .item-6{
     height: 500px;
     width: 50%;
-    background-image: url("./assets/img/oceanpollution.jpg");
+    background-image: url("../assets/img/oceanpollution.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -124,7 +124,7 @@
 .item-7{
     height: 500px;
     width: 50%;
-    background-image: url("./assets/img/airpollution.jpg");
+    background-image: url("../assets/img/airpollution.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -176,7 +176,8 @@ img{
         text-align: center;
         text-transform: uppercase;
         color: rgb(41, 41, 41);
-        border: 1px solid  rgb(179, 177, 177);
+        border-top: 1px solid  rgb(179, 177, 177);
+        border-bottom: 1px solid  rgb(179, 177, 177);
     }
 
     #slider figure img{
