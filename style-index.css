@@ -72,7 +72,7 @@
 .item-1{
     height: 500px;
     width: 50%;
-    background-image: url("img/burningforest.jpg");
+    background-image: url("../burningforest.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
