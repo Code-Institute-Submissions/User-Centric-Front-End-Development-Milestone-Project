@@ -74,7 +74,7 @@ The gallery has some photos of the environment in peril, coupled with a box of b
 
 #### Google Maps: 
 
-I imbedded a Google Maps link to Canary Wharf, the location of the fictional offices for Our World. There is a text box beside this which discusses who the company are. When reducing the width, the map disappears and is replaced by an image of Canary Wharf's offices. 
+I imbedded a Google Maps link to Canary Wharf, the location of the fictional offices for Our World. There is a text box beside this which discusses who the company are. When reducing the width, the map disappears and is replaced by an image of Canary Wharf's offices. The image being displayed in mobile view was less a design choice and more a lack of knowledge as to how to make the map scale down correctly with the screen width. 
 
 ### The "Make a Difference" Page
 
