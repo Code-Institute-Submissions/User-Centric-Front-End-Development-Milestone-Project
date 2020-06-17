@@ -42,7 +42,7 @@ Here's the link to my first planning mock-up: [Mock-Up 1](https://imgur.com/7YuO
 
 Here's the link to my second planning mock-up: [Mock-Up 2](https://imgur.com/Q4LI45V)
 
-The mock-ups were very loosely followed. Even though it is not advised, I did improvise certain aspects as I saw fit.  
+The mock-ups were very loosely followed. Even though it is not advised, I did improvise certain aspects as I saw fit. An example of this would be the header. In my mock-up, my header was sat on the right in a row in-line to the title. However, I changed this to make it sit beneath the title. Another example of this would be the "Who Are We?" page. Rather than two, almost full width boxes covering the page, I used Google maps and a text box beside it. I made these changes as I progressed through my project because I was unsatisfied with the way it would have looked.
 
 ## Features 
 
@@ -221,16 +221,16 @@ IF the user types text into an input requesting a number input i.e. Long Card Nu
 
 I asked my parents and sister to test the site, as well as my mentor and a friend on Slack. 
 
-With my parents / sister, no bugs or issues were encountered. My mum attempted to swipe the image slider which suggests that making it responsive would've been a good choice. This is difficult to achieve without Javascript. 
+With my parents / sister, no bugs or issues were encountered. My mum attempted to swipe the image slider which suggests that making it responsive would've been a good choice. This is difficult to achieve without JavaScript. 
 
-My mentor trialed my website, there were no issues beside the GitPages not displaying my images. We fixed this during our final mentor session. The "Our World" title feature broke the user's expectations a little as it didn't lead to the home page, as per the usual site. I chose not to test this as I and my mentor liked the feature, however next time I should try making it more obvious that it leads to an external link. We also discussed the callout containing the "NOW" text underlined in red. It was a little misleading, as he tried to click on it. Again, another possibilty here would be to allow the user to click this and be taken to the donate page or something of that variety. 
+My mentor tested my website, there were no issues beside the GitPages not displaying my images. We fixed this during our final mentor session. The "Our World" title feature broke the user's expectations a little as it didn't lead to the home page, as per the usual site. I chose not to test this as I and my mentor liked the feature, however next time I should try making it more obvious that it leads to an external link. We also discussed the callout containing the "NOW" text underlined in red. It was a little misleading, as he tried to click on it. Again, another possibility here would be to allow the user to click this and be taken to the donate page or something of that variety. 
 
 ## Deployment 
 
 This project has been deployed via [GitHub Pages](https://github.com/KaganHuseyin/User-Centric-Front-End-Development-Milestone-Proeject).
 
 1. Log into GitHub.
-2. Select KaganHuseyin/User-Centric-Front-End-Development-Milestone-Proeject.
+2. Select KaganHuseyin/User-Centric-Front-End-Development-Milestone-Project.
 3. Select settings.
 4. Scroll down the page and locate GitHub Pages.
 5. Change the source to the master branch.
