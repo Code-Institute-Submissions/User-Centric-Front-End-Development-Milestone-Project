@@ -12,6 +12,15 @@ My project aim is to showcase what we are doing to our world. I will achieve thi
 
 The website is directed at teens and adults. The idea is that these individuals wish to do better for our world. The website will enable this by giving them information under the "Make a Difference" tab that will allow them to see what changes they can make to help do less damage to the earth. 
 
+### User Stories
+
+  1. As a new visitor to the website, I want to learn about what we are doing to the environment that is damaging our world.
+  2. As a new visitor to the website, I want to be able to navigate through the website with ease.
+  3. As a visitor that is serious about the world health, I wish to donate to a cause that is targetting the attributors to climate change etc.
+  4. As a vistor that is well informed on world health, I want to make sure that the information that is on the website is factual and impactful.
+  5. I should not be returning to this website, unless I am donating.
+
+
 ### An ideal viewer of this website would be someone that: 
 
 * Doesn't recycle 
@@ -104,6 +113,8 @@ The donation form is purely for visuals and as a user experience example. It con
 - I would have liked to make pop up bubbles for when the form or newsletter had been completed to notify the user. 
 - More control of the text outputted when not filling in the form correctly i.e. giving it more context. 
 - The input for email to force the user to use a .com / .co.uk etc. instead of just the @ sign being enough to pass validation. 
+
+- the input type "date" doesn't work in Internet Explorer or Safari. Polyfill was suggested, however I am yet to learn JavaScript.
 
 ## Technologies Used 
 
