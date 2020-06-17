@@ -42,7 +42,7 @@ Here's the link to my first planning mock-up: [Mock-Up 1](https://imgur.com/7YuO
 
 Here's the link to my second planning mock-up: [Mock-Up 2](https://imgur.com/Q4LI45V)
 
-The mock-ups were very loosely followed. Even though it is not advised, I did improvise certain aspects as I saw fit.  
+The mock-ups were very loosely followed. Even though it is not advised, I did improvise certain aspects as I saw fit. An example of this would be the header. In my mock-up, my header was sat on the right in a row in-line to the title. However, I changed this to make it sit beneath the title. Another example of this would be the "Who Are We?" page. Rather than two, almost full width boxes covering the page, I used Google maps and a text box beside it. I made these changes as I progressed through my project because I was unsatisfied with the way it would have looked.
 
 ## Features 
 
@@ -50,7 +50,7 @@ The mock-ups were very loosely followed. Even though it is not advised, I did im
 
 #### Header: 
 
-The header contains 4 links. The "Our World" title leads to Google Earth, as a quaint reference to what the website is about. The other links are "Who Are We?", "Make a Difference" and "Donate". The header collapses with screen width.  
+The header contains 4 links. The "Our World" title leads to Google Earth, as a quaint reference to what the website is about. The other links are "Who Are We?", "Make a Difference" and "Donate". The header collapses with screen width.
 
 #### Footer:  
 
@@ -74,7 +74,7 @@ The gallery has some photos of the environment in peril, coupled with a box of b
 
 #### Google Maps: 
 
-I imbedded a Google Maps link to Canary Wharf, the location of the fictional offices for Our World. There is a text box beside this which discusses who the company are. When reducing the width, the map disappears and is replaced by an image of Canary Wharf's offices. 
+I imbedded a Google Maps link to Canary Wharf, the location of the fictional offices for Our World. There is a text box beside this which discusses who the company are. When reducing the width, the map disappears and is replaced by an image of Canary Wharf's offices. The image being displayed in mobile view was less a design choice and more a lack of knowledge as to how to make the map scale down correctly with the screen width. 
 
 ### The "Make a Difference" Page
 
@@ -96,7 +96,7 @@ The donation form is purely for visuals and as a user experience example. It con
 * The newsletter feature allows the user to sign up to the weekly newsletter by entering a valid email. 
 * The email feature Opens up the user's mail and inputs Our World's hypothetical email when clicking the button in the contact tab.  
 
-## Features Left to Implement 
+## Features Left to Implement
 
 - Even though the image slider is now functional, it does not have controls. At this moment in time, I do not possess enough knowledge to do this with just HTML / CSS. I believe further studies into JavaScript will help me achieve this goal. 
 - Possibly allowing the user to see a pinned location on google maps when hovering over a certain image. 
@@ -106,6 +106,8 @@ The donation form is purely for visuals and as a user experience example. It con
 - The input for email to force the user to use a .com / .co.uk etc. instead of just the @ sign being enough to pass validation. 
 
 ## Technologies Used 
+
+HTML / CSS.
 
 No languages were used in the coding of this project. It is pure HTML / CSS. No frameworks or libraries were used.  
 
@@ -219,14 +221,16 @@ IF the user types text into an input requesting a number input i.e. Long Card Nu
 
 I asked my parents and sister to test the site, as well as my mentor and a friend on Slack. 
 
-With my parents / sister, no bugs or issues were encountered. My mum attempted to swipe the image slider which suggests that making it responsive would've been a good choice. This is difficult to achieve without Javascript.
+With my parents / sister, no bugs or issues were encountered. My mum attempted to swipe the image slider which suggests that making it responsive would've been a good choice. This is difficult to achieve without JavaScript. 
+
+My mentor tested my website, there were no issues beside the GitPages not displaying my images. We fixed this during our final mentor session. The "Our World" title feature broke the user's expectations a little as it didn't lead to the home page, as per the usual site. I chose not to test this as I and my mentor liked the feature, however next time I should try making it more obvious that it leads to an external link. We also discussed the callout containing the "NOW" text underlined in red. It was a little misleading, as he tried to click on it. Again, another possibility here would be to allow the user to click this and be taken to the donate page or something of that variety. 
 
 ## Deployment 
 
 This project has been deployed via [GitHub Pages](https://github.com/KaganHuseyin/User-Centric-Front-End-Development-Milestone-Proeject).
 
 1. Log into GitHub.
-2. Select KaganHuseyin/User-Centric-Front-End-Development-Milestone-Proeject.
+2. Select KaganHuseyin/User-Centric-Front-End-Development-Milestone-Project.
 3. Select settings.
 4. Scroll down the page and locate GitHub Pages.
 5. Change the source to the master branch.
